@@ -1,6 +1,7 @@
 from get_urls_names import GetCapsUrls
 from download_imgs import Download
 import sys
+import time
 
 
 def initialize():
@@ -36,6 +37,16 @@ def initialize():
         print(f'Baixando o {cap_name}')
         imgs_urls = teste.get_images_url(caps_urls[cap]['url'])
         download.download_imgs(imgs_urls, cap_name, manga_name)
+
+    print('-' * 25)
+    print('Download Concluído')
+    print('-' * 25)
+    print('Fechando programa')
+    print('-' * 25)
+
+    time.sleep(90)
+
+    sys.exit()
 
 
 def get_caps_to_download(tamanho: int):
