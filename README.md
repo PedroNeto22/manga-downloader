@@ -27,7 +27,7 @@ Manga Downloader is a simple and efficient command-line (terminal) tool develope
 
   Make sure to have the following dependencies installed before using Manga Downloader:
 
- - Python 3.x
+ - Python 3.11.5
  - Required libraries (install using pip install -r requirements.txt)
 
 ### Usage Steps
@@ -45,6 +45,8 @@ Manga Downloader is a simple and efficient command-line (terminal) tool develope
   ````
   python main.py
   ````
+4. Enter the URL of the manga page.
+   - Ex: [Jujutsu kaisen](https://gekkou.site/manga/83150c8e-4f7b-4d4e-bd38-f333bfdabb45/)
 
 ## Contributions and Issues
 
