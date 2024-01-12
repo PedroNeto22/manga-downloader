@@ -46,7 +46,7 @@ Manga Downloader is a simple and efficient command-line (terminal) tool develope
   python main.py
   ````
 4. Enter the URL of the manga page.
-   - Ex: [Jujutsu kaisen](https://gekkou.site/manga/83150c8e-4f7b-4d4e-bd38-f333bfdabb45/)
+   - Ex: [Jujutsu kaisen](https://github.com/PedroNeto22/manga-downloader.git)
 
 ## Contributions and Issues
 
