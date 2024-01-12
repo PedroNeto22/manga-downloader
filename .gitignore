@@ -5,3 +5,4 @@ fazer.md
 teste.py
 /build
 /dist
+*.spec
