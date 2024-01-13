@@ -13,7 +13,7 @@ Manga Downloader is a simple and efficient command-line (terminal) tool develope
 - ### Chapter Download
   - Manga Downloader allows users to view all available chapters for a specific manga, presenting the index of each chapter alongside.
 
-- ### Download de Capítulos
+- ### Chapter Download
 
   - During download, users can specify the start (Download from cap) and end (Until cap) of the desired chapters based on the index provided by Manga Downloader. It's essential to note that the user should inform the range based on this index, not the chapter number.
 
@@ -34,7 +34,7 @@ Manga Downloader is a simple and efficient command-line (terminal) tool develope
 
 1. Clone the Manga Downloader repository.
   ````
-  git clone https://github.com/seu-usuario/manga_downloader.git
+  git clone https://github.com/PedroNeto22/manga-downloader.git
   cd manga_downloader
   ````
 2. Install the dependencies.
