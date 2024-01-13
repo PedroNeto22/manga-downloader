@@ -13,7 +13,7 @@ Manga Downloader is a simple and efficient command-line (terminal) tool develope
 - ### Chapter Download
   - Manga Downloader allows users to view all available chapters for a specific manga, presenting the index of each chapter alongside.
 
-- ### Chapter Download
+- ### Download de Capítulos
 
   - During download, users can specify the start (Download from cap) and end (Until cap) of the desired chapters based on the index provided by Manga Downloader. It's essential to note that the user should inform the range based on this index, not the chapter number.
 
@@ -34,7 +34,7 @@ Manga Downloader is a simple and efficient command-line (terminal) tool develope
 
 1. Clone the Manga Downloader repository.
   ````
-  git clone https://github.com/PedroNeto22/manga-downloader.git
+  git clone https://github.com/seu-usuario/manga_downloader.git
   cd manga_downloader
   ````
 2. Install the dependencies.
@@ -53,6 +53,15 @@ Manga Downloader is a simple and efficient command-line (terminal) tool develope
 Contributions are welcome! If you encounter any issues or wish to contribute to the development of Manga Downloader, feel free to open an issue or submit a pull request.
 
 We hope Manga Downloader enhances the experience of downloading manga from [gekkou scans](https://gekkou.site/) more conveniently and enjoyable. Happy reading your favorite mangas!
+
+## Technologies Used
+
+The Manga Downloader was built using the following libraries and technologies:
+  - Requests (python-requests): Used for making HTTP requests, allowing access and download of web content.
+  - Selenium (selenium): Employed for browser automation, interacting with page elements and obtaining dynamic information.
+  - Urllib (urllib): Utilized for processing and manipulating URLs, aiding in the construction of valid URLs for downloading.
+  - OS (os): Applied for interacting with the operating system, enabling the creation and manipulation of folders and files in the file system.
+  - Sys (sys): Employed for accessing and manipulating Python runtime environment settings.
 
 ## Social
 
