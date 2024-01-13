@@ -30,7 +30,7 @@ def initialize():
 
     inicial, final = get_caps_to_download(num_available_chapters)
 
-    caps_to_download = range(inicial-1, final+1)
+    caps_to_download = range(inicial-1, final)
 
     for cap in caps_to_download:
         cap_name = caps_urls[cap]['name']
